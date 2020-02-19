@@ -13,9 +13,9 @@ function App() {
       <div className="App">
        
        <nav>
-         <Link to ='/login'>Login //</Link>
+         <Link to ='/login'>Login </Link>
 
-         <Link to ='/protected'> Protected Page </Link>
+         {/* <Link to ='/protected'> Protected Page </Link> */}
        </nav>
 
        <Switch>

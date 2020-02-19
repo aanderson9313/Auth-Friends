@@ -1,4 +1,5 @@
 import React from 'react';
+import '../App.css';
 
 class NewFriendForm extends React.Component {
 
@@ -66,7 +67,7 @@ class NewFriendForm extends React.Component {
                     value = {this.state.email}
                 /><br/>
 
-                <button type = 'submit'>Add A Friend</button>
+                <button className = 'button' type = 'submit'>Add A Friend</button>
             </form>
         );
     }
